@@ -51,13 +51,14 @@ input {
     border: 1px solid blue;
     padding: 5px;
     font-family: Helvetica, sans-serif;
+    min-width: 200px;
 }
 
 button {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
-    min-width: 160px;
+    min-width: 200px;
     padding: 5px;
     border: 1px solid blue;
     background: blue;
@@ -69,10 +70,15 @@ button {
     margin-top: 10px;
 }
 
+a, a:visited{
+    color: blue;
+    text-decoration: none;
+}
+
 @media only screen and (min-width: 768px) {
 
 .wrapper {
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 }
