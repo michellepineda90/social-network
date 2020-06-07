@@ -1,6 +1,6 @@
 export default () => {
   const login = `
-      <img src="../img/png1.png">
+      <img src="../img/png1.png" alt="8bit-computer">
       <h1>&lt;CodeBook&gt;</h1>
       <p>¡Bienvenid@ coder!<p>
       <form id="login-form" method="post" action="#/home">
@@ -10,6 +10,7 @@ export default () => {
       </form>
       <p>O ingresa con...</p>
       <div class ="social-media">
+        <img src="../img/google.png" alt="google-logo">
       </div>
       <p>¿No tienes una cuenta? <a href="#/signup">Regístrate</a></p>
     `;

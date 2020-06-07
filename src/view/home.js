@@ -1,5 +1,6 @@
 export default () => {
   const signup = `
+    <nav></nav>
     <img src="../img/png1.png">
       <h1>Bienvenid@ de regreso</h1>
     `;

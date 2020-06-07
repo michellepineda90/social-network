@@ -68,6 +68,7 @@ button {
 
 .social-media {
     margin-top: 10px;
+    max-width: 16px;
 }
 
 a, a:visited{
