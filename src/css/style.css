@@ -12,6 +12,10 @@ html {
     padding: 0;
 }
 
+nav, footer {
+    display: none;
+}
+
 .container {
     width: 100%;
 }
@@ -24,7 +28,7 @@ html {
     align-items: center;
 }
 
-img {
+.codebook-logo {
     max-width: 150px;
 }
 
@@ -54,7 +58,7 @@ input {
     min-width: 200px;
 }
 
-button {
+.signup-btn, .login-btn {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -66,9 +70,14 @@ button {
     font-family: Helvetica, sans-serif;
 }
 
+.google-btn {
+    border: none;
+    background: transparent;
+}
+
 .social-media {
     margin-top: 10px;
-    max-width: 16px;
+    max-width: 32px;
 }
 
 a, a:visited{
@@ -79,7 +88,20 @@ a, a:visited{
 @media only screen and (min-width: 768px) {
 
 .wrapper {
-    margin-top: 90px;
+    margin-top: 30px;
+}
+
+nav, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    color: white;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 1em;
 }
 
 }
